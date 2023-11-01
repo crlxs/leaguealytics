@@ -12,15 +12,13 @@ WC = ["CBLOL", "IWC", "LCL", "LCO", "LJL", "LLA", "LST", "MSS", "PCS", "VCS"]
 ERL = ["AL", "BL", "BM", "DL", "EBL", "EMEAM", "ESLOL", "GLL", "HM", "LFL", "LPLOL", "NLC", "PGN", "PRM", "SL", "TCL", "Ultraliga"]
 
 LEAGUES = [TOP, WC, ERL]
+#for i in LEAGUES:
+#	for j in i:
+#		print (j, end=" ")
+#	print() 
 #### FUNCTIONS
 
 #############################################################################################################################################################
-#From gol.gg, scrape a list of tournaments by season for:
-#	TOP = Major regions (LCK, LEC, LPL, etc) + MSI/Worlds
-#	WC  = Wildcard (CBLOL, PCS, etc)
-#	ERL = Regionals (LVP, LFL,)
-#Tournament = league+split+stage (e.g. LCK Summer 2023), stage can be none (regular season), playoffs or finals
-
 #From gol.gg, scrape a list of tournaments by season for:
 #   TOP = Major regions (LCK, LEC, LPL, etc) + MSI/Worlds
 #   WC  = Wildcard (CBLOL, PCS, etc)
@@ -49,7 +47,4 @@ def tournaments(season):
 ##
 
 #tournaments('S13')
-for i in LEAGUES:
-	for j in i:
-		print (j, end=" ")
-	print() 
+
