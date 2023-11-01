@@ -29,3 +29,4 @@ tournament_list = select.options
 
 for t in tournament_list:
 	print(t.get_attribute("value"))
+	# https://stackoverflow.com/questions/18515692/listing-select-option-values-with-selenium-and-python
