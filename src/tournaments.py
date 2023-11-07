@@ -10,9 +10,10 @@ from selenium.webdriver.support.select import Select
 
 ####
 
-#def playerstats(player, position, team, season, split):
+# Given a season (13, 12, etc) and a split (Spring, Summer, ALL), list all tournaments.
+# Not filtered for now, should just output Major leagues, WildCards and ERLs.
 
-#def tournaments():
+#def tournaments(season, split):
 url = "https://gol.gg/players/list/season-S13/split-ALL/tournament-ALL/"
 
 chrome_options = Options()
