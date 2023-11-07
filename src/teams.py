@@ -32,3 +32,5 @@ driver = webdriver.Chrome(options=chrome_options)
 
 driver.get(url)
 driver.implicitly_wait(5) #Implicit wait is bad
+
+#?teams_table = driver.find_element(By.CLASS_NAME, "table_list")?
