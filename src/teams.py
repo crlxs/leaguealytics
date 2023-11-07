@@ -12,7 +12,7 @@ from selenium.webdriver.support.select import Select
 
 #Given a league, season and split, list all teams.
 
-#def teams():
+#def teams(league, season, split):
 url = "https://gol.gg/"
 
 chrome_options = Options()
