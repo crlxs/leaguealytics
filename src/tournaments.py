@@ -24,7 +24,7 @@ driver.get(url)
 
 driver.implicitly_wait(5) #Implicit wait is rarely the best solution, need to research a better way.
 
-tournament_box = driver.find_element(By.NAME, 'cbtournament')
+tournament_box = driver.find_element(By.NAME, 'cbtournament') #Searches for tournament dropdown
 select = Select(tournament_box)
 tournament_list = select.options
 
