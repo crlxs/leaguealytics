@@ -4,3 +4,7 @@ Python project using the [Selenium WebDriver](https://www.selenium.dev/documenta
 
 
 Be it for a fear of being wrong or simple laziness from the people in it, League's current competitive scene seems very stagnant to me; the champions, runes and itemization choices happening are always the same and very rarely challenged. Hence, I am trying to use stats to support my takes on the meta-game, while trying to not be too results-based (stats require context and are not the end-all be-all).
+
+## TODOs
+
+- Scrape teamwide kill/death avg for each team from gol.gg
